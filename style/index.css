@@ -1,19 +1,7 @@
+@import 'modern-normalize.min.css';
 @import 'root.css';
-@import 'icons.css';
-@import 'screen_small.css';
-@import 'screen_medium.css';
-@import 'screen_large.css';
-@import 'general_settings.css';
-@import 'scrollbar.css';
-@import 'graph_elements.css';
-@import 'loading_spinner.css';
-@import 'cards_info.css';
-@import 'input_animation.css';
-@import 'ids.css';
-@import 'btns.css';
-@import 'search.css';
-@import 'qr.css';
-@import 'footer.css';
+@import 'fonts.css';
+@import 'content.css';
 
 
 

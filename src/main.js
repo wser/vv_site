@@ -1,7 +1,13 @@
-import snarky from '../public/snarky.js'
+import snarky from './snarky.js'
+// import * as JSDOM from './jsdom.min.js'
+//import * as createDOMPurify from './purify.min.js'
 
 const c = e => console.log(e)
-const html = fetch("vv.md")
+
+const html = fetch("./vv.md")
+//const window = new JSDOM('').window
+//const DOMPurify = createDOMPurify(window)
+
 
 html
     .then(res=>res.text())
