@@ -1,8 +1,8 @@
-# vite, 
-## html, 
-#### [jsdom](), [purify]()
-## css, 
-#### [modern-normalize.css](),
-## js,
-#### [snarkdom]()
-## md
+Made with: [vite](#) | 
+[html](#) |
+[css](#)
+[modern-normalize.css](#) |
+[javascript](#)
+[purify](#)
+[snarkdown](#) |
+[markdown](#)

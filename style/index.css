@@ -1,8 +1,10 @@
 @import 'modern-normalize.min.css';
 @import 'root.css';
 @import 'fonts.css';
-@import 'content.css';
+@import 'certs.css';
 @import 'footer.css';
+
+@import 'content.css';
 
 
 
