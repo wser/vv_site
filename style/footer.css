@@ -1,0 +1,14 @@
+/* FOOTER //////////////////////////////////////*/
+/* prettier-ignore */
+footer { 
+    margin: 2em;
+    border-top: 1px solid var(--border-color);
+    padding-top: .25em;
+    width: 90%;
+  }
+
+/* CREDENTIALS //////////////////////////////////////*/
+#cred {
+  font-size: 0.5em;
+  margin-top: 1.5em;
+}
