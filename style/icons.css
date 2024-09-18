@@ -1,0 +1,23 @@
+/* FEATHER ICONS //////////////////////////////////////*/
+/* prettier-ignore */
+.f { width: 24px; height: 24px; stroke: currentColor; stroke-width: 2; 
+    stroke-linecap: round;
+    stroke-linejoin: round; fill: none; }
+/* prettier-ignore */
+.f-16{ width: 16px; height: 16px; }
+
+/* ICONS //////////////////////////////////////*/
+/* prettier-ignore */
+.icons-wrapper { display: flex; align-items: center;  gap: 20px; }
+/* prettier-ignore */
+.icon { width: 24px; height:24px; border: 1px solid var(--border-color); border-radius: 2rem; padding: 2px;}
+/* prettier-ignore */
+#info { position: relative; display: block; }
+/* prettier-ignore */
+#exitz { position: relative;  display: none; }
+/* prettier-ignore */
+#pencil { position: relative;  display: none; }
+/* prettier-ignore */
+#sendz { position: relative; display: none; }
+/* prettier-ignore */
+#displayMode { position: relative; }

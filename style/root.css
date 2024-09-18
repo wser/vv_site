@@ -1,0 +1,5 @@
+:root {
+	--border-color: rgb(79, 185, 227); /*blue*/
+	/*--border-color: rgb(125, 200, 125); /*green*/
+	--border-color-active: orange;
+}

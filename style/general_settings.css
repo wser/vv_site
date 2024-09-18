@@ -1,0 +1,22 @@
+/* GENERAL SETTINGS //////////////////////////////////////*/
+/* prettier-ignore */
+.page { display: none; padding-top:1rem; padding-bottom: 1rem;}
+
+#d3-graph {
+  display: flex;
+	justify-content: space-between;
+  top: 0.3rem;
+  position: relative;
+  width: 100%;
+  min-height: 450px;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 1px dashed var(--border-color);
+  border-radius: 1rem;
+}
+
+/* prettier-ignore */
+svg { display: block; position: absolute; width: 100%;}
+/* prettier-ignore */
+.hidden { display: none;}

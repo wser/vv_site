@@ -1,0 +1,11 @@
+/* LARGE SCREEN //////////////////////////////////////////*/
+@media screen and (min-width: 70em) {
+  /* prettier-ignore */
+  main { display: grid; grid-template-columns: 1fr 3fr; column-gap: 20px;}
+  /* prettier-ignore */
+  article { margin-bottom: 0; }
+  /* prettier-ignore */
+  footer { border-top: 1px solid var(--border-color); margin-top: 2em;}
+  /* prettier-ignore */
+  .menu__btn { left:5rem; }
+}

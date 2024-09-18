@@ -1,0 +1,23 @@
+/* CONTROL BUTTONS //////////////////////////////////////*/
+.myBtns {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 4px 2px;
+  margin-right: 0.5rem;
+}
+
+/* SHARE BTN //////////////////////////////////////*/
+/* prettier-ignore */
+#share { align-self: center; margin-right:2rem;}
+/* prettier-ignore */
+#share .icon { padding-right: 4px; }
+
+/* CONTACT BTN //////////////////////////////////////*/
+/* prettier-ignore */
+#contact { align-self: center;  margin-right:2rem;}
+/* prettier-ignore */
+#contact a {text-decoration: none; color:var(--border-color);}
+

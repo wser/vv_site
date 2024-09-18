@@ -1,0 +1,15 @@
+/* INPUT animated label //////////////////////////////////////*/
+/* prettier-ignore */
+.input-group { position: relative; padding: 5px;}
+/* prettier-ignore */
+.input, .input textarea { padding: 10px; padding-bottom: 2px; width: 100%; height:40px; box-sizing: border-box;
+    outline: none; border: transparent; border-bottom: 1px solid var(--border-color);}
+/* prettier-ignore */
+.placeholder { position: absolute; top: 15px; left: 8px; font-size: 12px;
+    padding: 0px 2px; color: #666; transition: 0.3s; pointer-events: none; opacity: 0.2;}
+/* prettier-ignore */
+.input:focus + .placeholder { top: -3px; color: var(--border-color);opacity: 1; }
+/* prettier-ignore */
+#item-7 { width:100%; height:20px; resize: none; } /* NAPOMENA*/
+/* prettier-ignore */
+.selected { border-bottom: 1px solid var(--border-color-active)}

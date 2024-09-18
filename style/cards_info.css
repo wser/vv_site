@@ -1,0 +1,30 @@
+/* CARDS info //////////////////////////////////////*/
+/* prettier-ignore */
+.related { margin-bottom: 0.3em; /*border: 1px solid var(--border-color);*/ }
+/* prettier-ignore */
+.cards { list-style: none; margin: 0; padding: 0; display: grid;  gap: 2px;
+          grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+          max-height: 0; overflow: hidden; transition: max-height 0.15s ease-in; }
+/* prettier-ignore */
+.cards li { padding: 1px; overflow-y: auto; overflow-x: hidden;}
+/* prettier-ignore */
+.cards li textarea:focus, .cards li input:focus { outline: none; }
+/* prettier-ignore */
+.cards li input:not(:placeholder-shown) ~ label { top: -3px; opacity:0.2} /* detect if input has value */
+/* prettier-ignore */
+.cards li input:invalid { border: 1px solid red; }
+/* prettier-ignore */
+.cards li textarea:not(:placeholder-shown) ~ label { top: -3px; opacity:0.2 } /* detect if textarea has value */
+/* prettier-ignore */
+.cards li textarea {
+    display: inline-block; margin: 0; padding: 0.2em;
+    width: 102%; min-width: 3em; max-width: 100%; /* The max-width "100%" value fixes a weird issue where width is too wide by default and extends beyond 100% of the parent in some agents. */
+    height: auto;/* Height "auto" will allow the text area to expand vertically in size with a horizontal scrollbar if pre-existing content is added to the box before rendering. Remove this if you want a pre-set height. Use "em" to match the font size set in the website. */
+    min-height: 2.5rem;/* Use "em" to define the height based on the text size set in your website and the text rows in the box, not a static pixel value. */  
+    overflow: auto;/* Overflow "auto" allows the box to start with no scrollbars but add them as content fills the box. */
+    resize:vertical; /* Resize creates a tab in the lower right corner of textarea for most modern browsers and allows users to resize the box manually. Note: Resize isn't supported by most older agents and IE. */
+    padding-top: 14px;
+    padding-left:10px;
+  }
+/* prettier-ignore */
+.active { max-height: 50rem;} /*use height to display cards*/
