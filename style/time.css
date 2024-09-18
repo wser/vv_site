@@ -1,0 +1,14 @@
+#mytime{
+    color: lightgray;
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+    float: right;
+    margin-right: 0em;
+    text-align: right;
+    line-height: 0;
+    margin-bottom: 1em;
+}
+#mytime p {
+    margin-bottom: 0.1em;
+}

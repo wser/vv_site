@@ -1,2 +1,4 @@
-*  { font-family: "Varela Round" }
-#content { display: flex; flex-direction: column; padding: 2em; }
+#content { 
+    display: flex; 
+    flex-direction: column; 
+}
