@@ -9,7 +9,7 @@ export default defineConfig({
       outDir: 'dist',// Output directory for the production build
       assetsDir: 'assets',
       rollupOptions: {
-          input: './index.html'     
+          input: './index.html'
     }
   }
 });
