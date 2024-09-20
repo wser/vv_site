@@ -1,8 +1,7 @@
-Made with: [vite](#) | 
+Stack: [vite](#) | 
 [html](#) |
 [css](#)
 [modern-normalize](#) |
 [javascript](#)
-[purify](#)
 [snarkdown](#) |
 [markdown](#)

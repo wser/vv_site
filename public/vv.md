@@ -10,4 +10,6 @@ mag.oec, ovl.int.rev, IPMA C, CISA, MiCEH
 
 ### Else
 
-how r u?
+
+### 
+### 
