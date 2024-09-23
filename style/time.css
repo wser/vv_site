@@ -1,4 +1,4 @@
-#mytime{
+#my-time{
     color: lightgray;
     display:flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     line-height: 0;
     margin-bottom: 1em;
 }
-#mytime p {
+#my-time p {
     margin-bottom: 0.1em;
     cursor: pointer;
 }

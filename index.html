@@ -9,10 +9,23 @@
 <body>
   
   <div id="page">
+    <fieldset class="toggle-group" id="colorScheme">
+      <label>
+        <input type="radio" name="color-scheme" id="color-scheme-light" value="0" data-sr>
+        Light
+      </label>
+      <label>
+        <input type="radio" name="color-scheme" value="auto" checked data-sr>
+        Auto
+      </label>
+      <label>
+        <input type="radio" name="color-scheme" id="color-scheme-dark" value="1" data-sr>
+        Dark
+      </label>
+    </fieldset>
     <div id="content"></div>
-    <div id="mytime"></div>
     <footer><div id="cred">Viktor Vidaković&nbsp;&copy;&nbsp;2024</div><div id="tech"></div></footer>
   </div>
-  <script type="module" src="./src/main.js"></script>
+  <script defer type="module" src="./src/main.js"></script>
 </body>
 </html>

@@ -3,7 +3,10 @@ const randomT = t => Math.floor(Math.random() * t.length)
 const c = e => console.log(e)
 const startDate = new Date('1981-07-03T11:54:55.373Z')
 
-const timeEl = document.querySelector("#mytime")
+const content = document.querySelector("#content")
+const child = document.createElement('div')
+child.id = "my-time"
+const timeEl = content.insertAdjacentElement('afterend', child)
 let clicked = false;
 let timeObj = null;
 
