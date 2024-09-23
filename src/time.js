@@ -17,6 +17,7 @@ const showElapsedSeconds = () => {
   let difference = (endDate - startDate)
   let sec = { title: 'age in seconds', val: parseInt(difference/1000) }
   timeEl.innerHTML = `<p>${sec.title}</p><p>${tauSeprtr(sec.val)}</p>`
+  timeEl.style = "border: none"
 }
 
 // create time counters
@@ -34,6 +35,7 @@ const randomlySwitchUnit = () => {
   let tKeys = Object.keys(timeObj)
   let rndT = timeObj[tKeys[randomT(tKeys)]]
   timeEl.innerHTML = `<p>${rndT.title}</p><p>${tauSeprtr(rndT.val)}</p>`
+  timeEl.style = "border: 1px dashed var(--border-color); padding:0 4px 8px 4px; margin-bottom: 2px; border-radius: 8px; "
 }
 
 export const time = () => {
