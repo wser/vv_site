@@ -1,6 +1,8 @@
 @import 'modern-normalize.min.css';
 @import 'root.css';
 @import 'fonts.css';
+@import 'light_switch.css';
+
 @import 'certs.css';
 @import 'footer.css';
 @import 'time.css';
