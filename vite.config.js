@@ -14,3 +14,4 @@ export default defineConfig({
   }
 });
 
+// cd /storage/emulated/0/Download/code/vv_site
