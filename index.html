@@ -5,13 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VV_site</title>
     <link rel="stylesheet" type="text/css" href="./style/index.css" />
+    <style>
+      .wrapper{
+        max-width: 100%;
+        overflow: hidden;
+      }
+      .marquee{
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline-block;
+        animation: marquee 10s linear infinite;
+      }
+      .marquee p { display: inline-block;}
+      @keyframes marquee {
+        0% {
+          transform: translate3d(0, 0, 0);
+        }
+        100% {
+          transform: translate3d(-50%, 0, 0);
+        }
+        
+      }
+    </style>
 </head>
 <body>  
   <div id="page">
     <div id="content"></div>
+<<<<<<< HEAD
     <footer>
       <div id="cred">Overengineered site by: Viktor Vidaković&nbsp;&copy;&nbsp;2024</div><div id="tech"></div></footer>
+=======
+    <div class="wrapper">
+      <div class="marquee">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, consequuntur. Quis vero eum maiores cupiditate voluptas itaque exercitationem quia temporibus!</p>
+      </div>
+    </div>
+    <footer><div id="cred">Overengineered site by: Viktor Vidaković&nbsp;&copy;&nbsp;2024</div><div id="tech"></div></footer>
+>>>>>>> 64958a03c85eec33f7178a74ec380172b4d53bd3
   </div>
+
+  
+
+
   <script defer type="module" src="./src/main.js"></script>
 </body>
 </html>
